@@ -37,7 +37,7 @@ const nextButton = document.getElementById('next')
 const imageElement = document.getElementById('slider-image')
 
 let currentIndex = 0
-let src=0
+
 
 
 
