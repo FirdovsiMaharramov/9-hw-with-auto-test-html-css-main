@@ -41,7 +41,7 @@ let currentIndex = 0
 
 
 function updateImage() {
-  imageElement.src = WEB_TECH_IMAGES[currentIndex]
+  imageElement.src = WEB_TECH_IMAGES[0]
 }
 
 // Обработчики кликов по кнопкам
