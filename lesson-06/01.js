@@ -35,9 +35,10 @@ const web_tech_image=document.getElementById('web-tech-image')
 
 const prevButton = document.getElementById('prev')
 const nextButton = document.getElementById('next')
-const imageElement = document.getElementById('slider-image')
+
 
 let currentIndex = 0
+const imageElement = document.getElementById('slider-image')
 
 
 
