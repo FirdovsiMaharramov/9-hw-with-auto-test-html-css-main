@@ -46,12 +46,12 @@ function updateImage() {
 
 // Обработчики кликов по кнопкам
 prevButton.addEventListener('click', () => {
-  currentIndex = (currentIndex - 1 + WEB_TECH_IMAGES.length) % WEB_TECH_IMAGES.length;
+  currentIndex = (currentIndex - 1 + WEB_TECH_IMAGE.length) % WEB_TECH_IMAGE.length;
   updateImage();
 })
 
 nextButton.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % WEB_TECH_IMAGES.length;
+  currentIndex = (currentIndex + 1) % WEB_TECH_IMAGE.length;
   updateImage();
 })
 
