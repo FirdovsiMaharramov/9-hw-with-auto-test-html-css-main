@@ -40,15 +40,20 @@ let currentIndex = 0
 
 
 
-
-// Обработчик кнопки "Следующее"
-nextButton.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % WEB_TECH_IMAGES.length
+function updateImage() {
   imageElement.src = WEB_TECH_IMAGES[currentIndex]
-})
+}
 
-// Обработчик кнопки "Предыдущее"
+// Обработчики кликов по кнопкам
 prevButton.addEventListener('click', () => {
   currentIndex = (currentIndex - 1 + WEB_TECH_IMAGES.length) % WEB_TECH_IMAGES.length
-  imageElement.src = WEB_TECH_IMAGES[currentIndex]
+  updateImage()
 })
+
+nextButton.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % WEB_TECH_IMAGES.length
+  updateImage()
+})
+
+// Установка первого изображения при загрузке
+updateImage()
