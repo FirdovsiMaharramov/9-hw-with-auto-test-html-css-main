@@ -39,8 +39,7 @@ const imageElement = document.getElementById('slider-image')
 let currentIndex = 0
 let src=0
 
-// Устанавливаем начальное изображение
-imageElement.src = WEB_TECH_IMAGES[currentIndex]
+
 
 // Обработчик кнопки "Следующее"
 nextButton.addEventListener('click', () => {
