@@ -38,7 +38,7 @@ const nextButton = document.getElementById('next')
 
 
 let currentIndex = 0
-const imageElement = document.getElementById('slider-image')
+const imageElement = document.getElementById('web-tech-image')
 
 
 
