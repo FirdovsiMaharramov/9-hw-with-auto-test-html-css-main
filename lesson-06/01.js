@@ -33,8 +33,8 @@ const WEB_TECH_IMAGES = [
 ]
 const web_tech_image=document.getElementById('web-tech-image')
 
-const prevButton = document.getElementById('prev')
-const nextButton = document.getElementById('next')
+const prevButton = document.getElementById('prev-button')
+const nextButton = document.getElementById('next-button')
 
 
 let currentIndex = 0
@@ -59,3 +59,4 @@ nextButton.addEventListener('click', () => {
 
 // Установка первого изображения при загрузке
 updateImage()
+
